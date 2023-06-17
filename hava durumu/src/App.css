@@ -1,0 +1,33 @@
+.App.dark {
+    background-color: black;
+    color: white;
+
+}
+.App {
+    background-image: url("./img/background.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-scroll {
+    height: 200px;
+    width: 200px; 
+    overflow: scroll;
+  }
+
+  .dropdown-scroll {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
